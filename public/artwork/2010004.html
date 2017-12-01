@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	p= JSON.stringify(myData)
+	//- ul
+		each(loop='item in artworks')
+			li
+				//- {{item.idArtwork}}
+				a(href=artwork/{{{item.idArtwork}}})
+					| {{ item.titleArtwork }}	

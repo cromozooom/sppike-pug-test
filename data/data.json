@@ -1,0 +1,7 @@
+{
+	"text": "sample",
+	"menu": {
+		"Home":{ "link": "www.google.com"},
+		"About":{ "link": "www.google.com"}
+	}
+}

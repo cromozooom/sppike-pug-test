@@ -1,0 +1,43 @@
+{
+  "name": "spike-pug",
+  "description": "test of pug template",
+  "version": "0.0.1",
+  "author": "cromozooom",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": "https://github.com/cromozooom/spike-pug/issues",
+  "dependencies": {
+    "autoprefixer-stylus": "^0.14.0",
+    "axis": "^1.0.0",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.10.0",
+    "jstransformer-marked": "^1.0.1",
+    "marked": "^0.3.6",
+    "pug-static-loader": "^2.0.0",
+    "rupture": "^0.6.1",
+    "source-loader": "^1.0.0",
+    "spike": "^2.0.2",
+    "spike-datocms": "^2.2.2",
+    "spike-page-id": "^1.0.0",
+    "spike-records": "^2.2.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "rimraf": "^2.5.4",
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.1"
+  },
+  "homepage": "https://github.com/cromozooom/spike-pug",
+  "main": "app.js",
+  "private": "true",
+  "repository": "https://github.com/cromozooom/spike-pug",
+  "scripts": {
+    "lint": "standard | snazzy",
+    "precommit": "npm run lint -s",
+    "pretest": "npm run lint -s",
+    "test": "NODE_ENV=test ava"
+  }
+}
